@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Coding.Generics.BinaryTreeDemo</StartupObject>
+    <StartupObject>Coding.LRUDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Generics\BinaryTree.cs" />
     <Compile Include="Generics\GenericIntro.cs" />
+    <Compile Include="LRU.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
