@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Coding.LRUDemo</StartupObject>
+    <StartupObject>Coding.MaxSubArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="Generics\BinaryTree.cs" />
     <Compile Include="Generics\GenericIntro.cs" />
     <Compile Include="Generics\LRU.cs" />
+    <Compile Include="MaxSubArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
