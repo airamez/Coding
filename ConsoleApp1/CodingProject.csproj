@@ -48,7 +48,7 @@
   <ItemGroup>
     <Compile Include="Generics\BinaryTree.cs" />
     <Compile Include="Generics\GenericIntro.cs" />
-    <Compile Include="LRU.cs" />
+    <Compile Include="Generics\LRU.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
