@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Coding
 {
+    /// <summary>
+    /// Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers which has the largest sum.
+    /// </summary>
     public class MaxSubArray
     {
         public static void Main (string[] args)
@@ -19,6 +22,12 @@ namespace Coding
             Console.WriteLine(GetMaxSubArraySumDP_1(new int[] { -2, -5, 6, -2, -3, 1, 5, -6 }));
             Console.WriteLine(GetMaxSubArraySumDP_2(new int[] { -2, -5, 6, -2, -3, 1, 5, -6 }));
             Console.WriteLine(GetMaxSubArraySumDP_3(new int[] { -2, -5, 6, -2, -3, 1, 5, -6 }));
+
+            Console.WriteLine(GetMaxSubArraySumBruteForce(new int[] { -2, -3, 4, 1, -2, 1, 5, -3 }));
+            Console.WriteLine(GetMaxSubArraySumDP_1(new int[] { -2, -3, 4, 1, -2, 1, 5, -3 }));
+            Console.WriteLine(GetMaxSubArraySumDP_2(new int[] { -2, -3, 4, 1, -2, 1, 5, -3 }));
+            Console.WriteLine(GetMaxSubArraySumDP_3(new int[] { -2, -3, 4, 1, -2, 1, 5, -3 }));
+
         }
 
         private static int GetMaxSubArraySumBruteForce(int[] a)
